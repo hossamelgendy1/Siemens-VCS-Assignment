@@ -1,0 +1,8 @@
+1- Created a local repository named "Siemens-VCS-Assignment"
+2- Published the repository on GitHub
+3- Created main.cpp with the initial implementation of the `getSum()` function
+4- Created two branches named "Average-Feature" and "Min-Feature"
+5- Implemented the `getAverage()` function in the "Average-Feature" branch and pushed the changes to origin
+6- Implemented the `getMin()` function in the "Min-Feature" branch and pushed the changes to origin
+7- Merged the "Average-Feature" branch into main branch with no conflicts
+8- Merged the "Min-Feature" branch into main branch and solved conflicts by accepting both changes
