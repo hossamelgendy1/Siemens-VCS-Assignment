@@ -14,7 +14,7 @@ int main(){
     for (int i = 0; i < 10; i++)
         v[i] = i+1;
 
-    cout << getSum(v) << endl;
+    cout << "vector sum = " << getSum(v) << endl;
     
     return 0;
 }
