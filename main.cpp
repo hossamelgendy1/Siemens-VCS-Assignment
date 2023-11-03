@@ -9,12 +9,20 @@ int getSum(const vector<int>& vec){
     return sum;
 }
 
+int getMin(const vector<int>& vec){
+    int mini = vec[0];
+    for (int i = 1; i < vec.size(); i++)
+        mini = min(mini, vec[i]);
+    return mini;
+}
+
 int main(){
     vector<int> v(10);
     for (int i = 0; i < 10; i++)
         v[i] = i+1;
 
     cout << "vector sum = " << getSum(v) << endl;
+    cout << "vector minimum = " << getMin(v) << endl;
     
     return 0;
 }
